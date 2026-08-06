@@ -104,19 +104,55 @@ for day in range(1, 8):
     # -1 or a score between 0 and 100.
     while True:
         score = int(
-        input(
-            f"Enter Day {day} score from 0 to 100, "
-            "or -1 for absent: "
+            input(
+                f"Enter Day {day} score from 0 to 100, "
+                "or -1 for absent: "
+            )
         )
-    )
 
-    if score == -1 or (score >= 0 and score <= 100):
-        break
+        if score == -1 or (score >= 0 and score <= 100):
+            break
 
-    print("Invalid score. Enter -1 or a value between 0 and 100.")
+        print("Invalid score. Enter -1 or a value between 0 and 100.")
 
     # TODO: Handle absence.
-    # Increase absent_days and use continue.
+    if score == -1:
+        absent_days += 1
+        continue
+    attempted_days += 1
+total_score += score
+if not first_attempt_found:
+    highest_score = score
+    lowest_score = score
+    highest_score_day = day
+    lowest_score_day = day
+    first_attempt_found = True
+else:
+    if score > highest_score:
+        highest_score = score
+        highest_score_day = day
+
+    if score < lowest_score:
+        lowest_score = score
+        lowest_score_day = day
+if score >= 75:
+    strong_days += 1
+elif score >= 60:
+    satisfactory_days += 1
+elif score >= 40:
+    improvement_days += 1
+else:
+    critical_days += 1
+
+    if not critical_score_found:
+        critical_score_found = True
+        first_critical_day = day
+        first_critical_score = score
+if score >= 60:
+    passed_days += 1
+else:
+    failed_days += 1
+
 
     # TODO: Increase attempted_days and total_score.
 
@@ -140,7 +176,10 @@ for day in range(1, 8):
 # --------------------------------------------------
 
 # TODO: Prevent division by zero.
-average_score = 0
+if attempted_days > 0:
+    average_score = total_score / attempted_days
+else:
+    average_score = 0
 
 
 # --------------------------------------------------
@@ -189,6 +228,55 @@ placement_ready = (
 final_status = ""
 primary_blocker = ""
 next_action = ""
+if attempted_days == 0:
+    final_status = "Not Eligible"
+    primary_blocker = "No practice attempted"
+    next_action = "Complete practice sessions"
+
+elif critical_score_found:
+    final_status = "Not Eligible"
+    primary_blocker = "Critical score found"
+    next_action = "Improve weak areas"
+
+elif attempted_days < 6:
+    final_status = "Not Eligible"
+    primary_blocker = "Less than 6 attempts"
+    next_action = "Complete more practice days"
+
+elif passed_days < 4:
+    final_status = "Not Eligible"
+    primary_blocker = "Less than 4 passed days"
+    next_action = "Improve practice performance"
+
+elif average_score < 70:
+    final_status = "Not Eligible"
+    primary_blocker = "Average below 70"
+    next_action = "Increase average score"
+
+elif attendance < 75:
+    final_status = "Not Eligible"
+    primary_blocker = "Attendance below 75%"
+    next_action = "Improve attendance"
+
+elif not graduation_eligible:
+    final_status = "Not Eligible"
+    primary_blocker = "Graduation year not eligible"
+    next_action = "Check graduation eligibility"
+
+elif not project_completed:
+    final_status = "Not Eligible"
+    primary_blocker = "Project incomplete"
+    next_action = "Complete project"
+
+elif not profile_verified:
+    final_status = "Not Eligible"
+    primary_blocker = "Profile not verified"
+    next_action = "Verify profile"
+
+else:
+    final_status = "Ready for Mock Interview"
+    primary_blocker = "None"
+    next_action = "Attend Mock Interview"
 
 
 # --------------------------------------------------
@@ -220,6 +308,12 @@ print(f"Critical Days          : {critical_days}")
 print()
 print(f"Total Score            : {total_score}")
 print(f"Average Score          : {average_score:.2f}")
+if attempted_days > 0:
+    print(f"Highest Score          : {highest_score} (Day {highest_score_day})")
+    print(f"Lowest Score           : {lowest_score} (Day {lowest_score_day})")
+if critical_score_found:
+    print(f"First Critical Day     : Day {first_critical_day}")
+    print(f"First Critical Score   : {first_critical_score}")
 
 # TODO: Display highest and lowest values only when
 # at least one practice was attempted.
