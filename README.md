@@ -19,7 +19,7 @@ Jakeer
 | Member | GitHub Repository | Status |
 |--------|-------------------|--------|
 | Jakeer | https://github.com/maniyarjakeer0209-source/preptrack-jakeer | ✅ Completed |
-| Member 2 | Pending | Pending |
+| Sai Shivangi T | https://github.com/saishivangi/preptrack-saishivangi | ✅ Completed |
 | Member 3 | Pending | Pending |
 | Member 4 | Pending | Pending |
 | Member 5 | Pending | Pending |
