@@ -10,18 +10,25 @@ print("=" * 50)
 # --------------------------------------------------
 # 1. COLLECT STUDENT DETAILS
 # --------------------------------------------------
-
-# TODO: Validate that the student name is not empty.
+# Validate student name
 while True:
     student_name = input("Enter student name: ")
 
-    if student_name != "":
+    if student_name.strip() != "":
         break
 
     print("Student name cannot be empty.")
 
 registration_number = input("Enter registration number: ")
-graduation_year = int(input("Enter graduation year: "))
+
+
+while True:
+    graduation_year = int(input("Enter graduation year: "))
+
+    if 2025 <= graduation_year <= 2027:
+        break
+
+    print("Graduation year must be between 2025 and 2027.")
 
 # TODO: Validate attendance between 0 and 100.
 while True:
@@ -39,6 +46,8 @@ while True:
         "Has the student completed the required project? Enter yes or no: "
     )
 
+    project_input = project_input.lower()
+
     if project_input == "yes" or project_input == "no":
         break
 
@@ -55,6 +64,8 @@ while True:
     profile_input = input(
         "Is the student profile verified? Enter yes or no: "
     )
+
+    profile_input = profile_input.lower()
 
     if profile_input == "yes" or profile_input == "no":
         break
@@ -156,17 +167,7 @@ for day in range(1, 8):
         passed_days += 1
     else:
         failed_days += 1
-
-
-
-
-
-# highest_score, highest_score_day,
-# lowest_score and lowest_score_day.
-# 75–100  -> Strong
-# 60–74   -> Satisfactory
-# 40–59   -> Needs Improvement
-# 0–39    -> Critical
+        
 # --------------------------------------------------
 # 4. CALCULATE THE AVERAGE
 # --------------------------------------------------
