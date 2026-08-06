@@ -1,8 +1,14 @@
 # preptrack-jakeer
 PrepTrack - Placement Preparation Performance Analyzer
-# preptrack-jakeer
+## Project Features
 
-PrepTrack - Placement Preparation Performance Analyzer
+- Student information validation
+- Attendance validation
+- Project and profile verification
+- Seven-day practice score processing
+- Average score calculation
+- Placement eligibility evaluation
+- Final report generation
 
 ## Team Lead
 
