@@ -82,8 +82,8 @@ python3 main.py
 | Test ID | Scenario | Expected Result | Actual Result | Status |
 |---------|----------|-----------------|---------------|--------|
 | TC-01 | All requirements satisfied | Ready for Mock Interview | Ready for Mock Interview | ✅ Passed  |
-| TC-02 | Critical score present | Critical Support Required | ✅ Passed | ✅ Passed |
-| TC-03 | Fewer than six attempts | Practice Incomplete | Pending | Pending |
+| TC-02 | Critical score present | Critical Support Required | Not Eligible (Critical score found) | ✅ Passed |
+| TC-03 | Fewer than six attempts | Practice Incomplete | Not Eligible (Less than 6 attempts) | ✅ Passed |
 | TC-04 | Fewer than four passed days | Insufficient Passed Practices | Pending | Pending |
 | TC-05 | Average below 70 | Practice Improvement Required | Pending | Pending |
 | TC-06 | Attendance below 75 | Attendance Improvement Required | Pending | Pending |
