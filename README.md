@@ -81,8 +81,8 @@ python3 main.py
 
 | Test ID | Scenario | Expected Result | Actual Result | Status |
 |---------|----------|-----------------|---------------|--------|
-| TC-01 | All requirements satisfied | Ready for Mock Interview | Pending | Pending |
-| TC-02 | Critical score present | Critical Support Required | Pending | Pending |
+| TC-01 | All requirements satisfied | Ready for Mock Interview | Ready for Mock Interview | ✅ Passed  |
+| TC-02 | Critical score present | Critical Support Required | ✅ Passed | ✅ Passed |
 | TC-03 | Fewer than six attempts | Practice Incomplete | Pending | Pending |
 | TC-04 | Fewer than four passed days | Insufficient Passed Practices | Pending | Pending |
 | TC-05 | Average below 70 | Practice Improvement Required | Pending | Pending |
@@ -137,7 +137,7 @@ https://github.com/maniyarjakeer0209-source/preptrack-jakeer
 
 ## Team Lead
 
-Jakeer
+Mohammed Jakeer F Maniyar
 
 ## Team Members
 
@@ -145,6 +145,6 @@ Jakeer
 |--------|-------------------|--------|
 | Jakeer | https://github.com/maniyarjakeer0209-source/preptrack-jakeer | ✅ Completed |
 | Sai Shivangi T | https://github.com/saishivangi/preptrack-saishivangi | ✅ Completed |
-| Member 3 | Pending | Pending |
+| M.Aravind | https://github.com/Aravind118-D/preptrack-Aravind | ✅ Completed |
 | Member 4 | Pending | Pending |
 | Member 5 | Pending | Pending |
