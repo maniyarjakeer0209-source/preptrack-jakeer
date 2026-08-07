@@ -150,5 +150,7 @@ Mohammed Jakeer F Maniyar
 | Pardhu | https://github.com/pardhueemana/preptrack-pardhu | ✅ Completed |
 | Vaishnavi Cp |https://github.com/gombea/Preptrackvaish | ✅ Completed |
 | Bogala Murali Krishna Reddy | https://github.com/MURALIKRISHNA2004/preptrack-murali | ✅ Completed |
+|V Neha Likhita |https://github.com/nehalikhitav/preptrack-NehaLikhita/tree/main | ✅ Completed |
+| Ambati Sankarsai |https://github.com/sankar-a7/preptrack-sankarsai | ✅ Completed |
 
 
