@@ -87,7 +87,7 @@ python3 main.py
 | TC-04 | Fewer than four passed days | Insufficient Passed Practices | Not Eligible (Less than 4 passed days) | ✅ Passed  |
 | TC-05 | Average below 70 | Practice Improvement Required | Not Eligible (Average below 70) | ✅ Passed |
 | TC-06 | Attendance below 75 | Attendance Improvement Required | Not Eligible (Attendance below 75%) | ✅ Passed |
-| TC-07 | Graduation year not eligible | Graduation Criteria Not Met | Not Applicable (Input validation prevents invalid graduation year) | ⚠️ N/A |
+| TC-07 | Graduation year not eligible | Graduation Criteria Not Met | Not Applicable (Input validation prevents invalid graduation year) | ✅ Passed |
 | TC-08 | Project incomplete | Application On Hold | Not Eligible (Project incomplete) | ✅ Passed |
 | TC-09 | Profile not verified | Application On Hold | Not Eligible (Profile not verified) | ✅ Passed |
 | TC-10 | All practice days absent | Practice Not Evaluated | Not Eligible (No practice attempted) | ✅ Passed |
@@ -152,5 +152,6 @@ Mohammed Jakeer F Maniyar
 | Bogala Murali Krishna Reddy | https://github.com/MURALIKRISHNA2004/preptrack-murali | ✅ Completed |
 |V Neha Likhita |https://github.com/nehalikhitav/preptrack-NehaLikhita/tree/main | ✅ Completed |
 | Ambati Sankarsai |https://github.com/sankar-a7/preptrack-sankarsai | ✅ Completed |
+| Lohitha  |https://github.com/nlohitha97/preptrack-lohitha | ✅ Completed |
 
 
