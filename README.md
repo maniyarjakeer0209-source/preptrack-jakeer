@@ -146,5 +146,5 @@ Mohammed Jakeer F Maniyar
 | Jakeer | https://github.com/maniyarjakeer0209-source/preptrack-jakeer | ✅ Completed |
 | Sai Shivangi T | https://github.com/saishivangi/preptrack-saishivangi | ✅ Completed |
 | M.Aravind | https://github.com/Aravind118-D/preptrack-Aravind | ✅ Completed |
-| Member 4 | Pending | Pending |
+| Yaparla Usharani | https://github.com/usharani-9391/preptrack-usha | ✅ Completed |
 | Member 5 | Pending | Pending |
