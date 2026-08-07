@@ -84,11 +84,11 @@ python3 main.py
 | TC-01 | All requirements satisfied | Ready for Mock Interview | Ready for Mock Interview | ✅ Passed  |
 | TC-02 | Critical score present | Critical Support Required | Not Eligible (Critical score found) | ✅ Passed |
 | TC-03 | Fewer than six attempts | Practice Incomplete | Not Eligible (Less than 6 attempts) | ✅ Passed |
-| TC-04 | Fewer than four passed days | Insufficient Passed Practices | Pending | Pending |
-| TC-05 | Average below 70 | Practice Improvement Required | Pending | Pending |
-| TC-06 | Attendance below 75 | Attendance Improvement Required | Pending | Pending |
-| TC-07 | Graduation year not eligible | Graduation Criteria Not Met | Pending | Pending |
-| TC-08 | Project incomplete | Application On Hold | Pending | Pending |
+| TC-04 | Fewer than four passed days | Insufficient Passed Practices | Not Eligible (Less than 4 passed days) | ✅ Passed  |
+| TC-05 | Average below 70 | Practice Improvement Required | Not Eligible (Average below 70) | ✅ Passed |
+| TC-06 | Attendance below 75 | Attendance Improvement Required | Not Eligible (Attendance below 75%) | ✅ Passed |
+| TC-07 | Graduation year not eligible | Graduation Criteria Not Met | Not Applicable (Input validation prevents invalid graduation year) | ⚠️ N/A |
+| TC-08 | Project incomplete | Application On Hold | Not Eligible (Project incomplete) | ✅ Passed |
 | TC-09 | Profile not verified | Application On Hold | Pending | Pending |
 | TC-10 | All practice days absent | Practice Not Evaluated | Pending | Pending |
 | TC-11 | Invalid score below -1 | Input Rejected | Pending | Pending |
@@ -147,4 +147,4 @@ Mohammed Jakeer F Maniyar
 | Sai Shivangi T | https://github.com/saishivangi/preptrack-saishivangi | ✅ Completed |
 | M.Aravind | https://github.com/Aravind118-D/preptrack-Aravind | ✅ Completed |
 | Yaparla Usharani | https://github.com/usharani-9391/preptrack-usha | ✅ Completed |
-| Member 5 | Pending | Pending |
+| Pardhu | https://github.com/pardhueemana/preptrack-pardhu | Pending |
