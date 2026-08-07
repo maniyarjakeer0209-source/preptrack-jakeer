@@ -81,20 +81,20 @@ python3 main.py
 
 | Test ID | Scenario | Expected Result | Actual Result | Status |
 |---------|----------|-----------------|---------------|--------|
-| TC-01 | All requirements satisfied | Ready for Mock Interview | Pending | Pending |
-| TC-02 | Critical score present | Critical Support Required | Pending | Pending |
-| TC-03 | Fewer than six attempts | Practice Incomplete | Pending | Pending |
-| TC-04 | Fewer than four passed days | Insufficient Passed Practices | Pending | Pending |
-| TC-05 | Average below 70 | Practice Improvement Required | Pending | Pending |
-| TC-06 | Attendance below 75 | Attendance Improvement Required | Pending | Pending |
-| TC-07 | Graduation year not eligible | Graduation Criteria Not Met | Pending | Pending |
-| TC-08 | Project incomplete | Application On Hold | Pending | Pending |
-| TC-09 | Profile not verified | Application On Hold | Pending | Pending |
-| TC-10 | All practice days absent | Practice Not Evaluated | Pending | Pending |
-| TC-11 | Invalid score below -1 | Input Rejected | Pending | Pending |
-| TC-12 | Invalid score above 100 | Input Rejected | Pending | Pending |
-| TC-13 | Boundary value testing | Correct Classification | Pending | Pending |
-| TC-14 | Multiple blockers | First Major Blocker Displayed | Pending | Pending |
+| TC-01 | All requirements satisfied | Ready for Mock Interview | Ready for Mock Interview | ✅ Passed  |
+| TC-02 | Critical score present | Critical Support Required | Not Eligible (Critical score found) | ✅ Passed |
+| TC-03 | Fewer than six attempts | Practice Incomplete | Not Eligible (Less than 6 attempts) | ✅ Passed |
+| TC-04 | Fewer than four passed days | Insufficient Passed Practices | Not Eligible (Less than 4 passed days) | ✅ Passed  |
+| TC-05 | Average below 70 | Practice Improvement Required | Not Eligible (Average below 70) | ✅ Passed |
+| TC-06 | Attendance below 75 | Attendance Improvement Required | Not Eligible (Attendance below 75%) | ✅ Passed |
+| TC-07 | Graduation year not eligible | Graduation Criteria Not Met | Not Applicable (Input validation prevents invalid graduation year) | ✅ Passed |
+| TC-08 | Project incomplete | Application On Hold | Not Eligible (Project incomplete) | ✅ Passed |
+| TC-09 | Profile not verified | Application On Hold | Not Eligible (Profile not verified) | ✅ Passed |
+| TC-10 | All practice days absent | Practice Not Evaluated | Not Eligible (No practice attempted) | ✅ Passed |
+| TC-11 | Invalid score below -1 | Input Rejected | Invalid input message displayed | ✅ Passed |
+| TC-12 | Invalid score above 100 | Input Rejected | Invalid input message displayed | ✅ Passed |
+| TC-13 | Boundary value testing | Correct Classification | Boundary values classified correctly | ✅ Passed |
+| TC-14 | Multiple blockers | First Major Blocker Displayed | Not Eligible (Critical score found) | ✅ Passed |
 
 ## 👨‍💻 Individual Contribution
 
@@ -137,7 +137,7 @@ https://github.com/maniyarjakeer0209-source/preptrack-jakeer
 
 ## Team Lead
 
-Jakeer
+Mohammed Jakeer F Maniyar
 
 ## Team Members
 
@@ -145,6 +145,13 @@ Jakeer
 |--------|-------------------|--------|
 | Jakeer | https://github.com/maniyarjakeer0209-source/preptrack-jakeer | ✅ Completed |
 | Sai Shivangi T | https://github.com/saishivangi/preptrack-saishivangi | ✅ Completed |
-| Member 3 | Pending | Pending |
-| Member 4 | Pending | Pending |
-| Member 5 | Pending | Pending |
+| M.Aravind | https://github.com/Aravind118-D/preptrack-Aravind | ✅ Completed |
+| Yaparla Usharani | https://github.com/usharani-9391/preptrack-usha | ✅ Completed |
+| Pardhu | https://github.com/pardhueemana/preptrack-pardhu | ✅ Completed |
+| Vaishnavi Cp |https://github.com/gombea/Preptrackvaish | ✅ Completed |
+| Bogala Murali Krishna Reddy | https://github.com/MURALIKRISHNA2004/preptrack-murali | ✅ Completed |
+|V Neha Likhita |https://github.com/nehalikhitav/preptrack-NehaLikhita/tree/main | ✅ Completed |
+| Ambati Sankarsai |https://github.com/sankar-a7/preptrack-sankarsai | ✅ Completed |
+| Lohitha  |https://github.com/nlohitha97/preptrack-lohitha | ✅ Completed |
+
+
